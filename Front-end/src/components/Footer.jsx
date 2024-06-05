@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className="py-10 bg-gray-900 sm:pt-16 lg:pt-24 mt-7">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12 ">
+        <div className="grid grid-cols-2  gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12  ">
           <div>
             <p className="text-base text-gray-500">Company</p>
 
@@ -13,7 +13,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className=" text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   About{" "}

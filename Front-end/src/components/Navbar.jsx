@@ -41,9 +41,9 @@ const Navbar = () => {
           <NavLink to='/contact'>Contact</NavLink>
         </div>
         
-        <div className="ICON flex items-center gap-2 cursor-pointer text-gray-600 mr-2 sm:mr-6 sm:gap-2">
+        <div className="ICON flex items-center gap-2 cursor-pointer text-gray-600 m sm:mr-6 sm:gap-2">
           <SearchIcon />
-          <PersonIcon />
+          <NavLink to={'/login'}> <PersonIcon  /> </NavLink>
           <FavoriteIcon />
           <div className=" relative" onClick={() => setOpen(!open)}>
             <LocalGroceryStoreIcon />

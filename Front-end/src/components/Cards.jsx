@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Cards = ({ item }) => {
   return (
     <Link to={`/product/${item.id}`}>
-      <section className="w-full sm:w-60 flex flex-col gap-2">
+      <section className="w-full sm:w-60 flex flex-col gap-2 md:h-[400px]">
         <div className="w-full h-[330px] sm:h-[300px] md:h-[350px] lg:h-[400px] overflow-hidden relative">
           {item.attributes.isNew && (
             <span className="absolute top-1 left-1 bg-gray-200 text-gray-800 font-poppins px-2 py-1 rounded z-20">
@@ -31,7 +31,7 @@ const Cards = ({ item }) => {
           {item.attributes.title}
         </h2>
         <div className="flex items-center gap-2 px-1 justify-center sm:justify-start">
-          <h3 className="line-through text-gray-500">${item.oldPrice}</h3>
+          <h3 className="line-through text-gray-500">${item.oldPrice || item?.attributes.price + 20}</h3>
           <h3 className="text-sm font-normal font-poppins text-gray-600">
             ${item?.attributes.price}
           </h3>
