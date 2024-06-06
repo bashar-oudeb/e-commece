@@ -7,10 +7,10 @@ const FeaturedProducts = ({ type }) => {
   );
 
   return (
-    <section className="my-12 px-4 md:px-16 lg:px-24 xl:px-52">
+    <section className="my-16 px-4 md:px-16 lg:px-24 xl:px-52">
       <div className="flex font-poppins flex-col lg:flex-row items-center justify-between mb-8 lg:mb-12">
         <h1 className="flex-[2] uppercase font-bold text-xl mb-4 lg:mb-0">{type} products</h1>
-        <p className="flex-[3] text-gray-600 text-center lg:text-left">
+        <p className="flex-[3] text-gray-600  text-center lg:text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
           suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan

@@ -30,7 +30,7 @@ const ItemProduct = () => {
               }
               alt=""
               onClick={() => setSelectImg("img")}
-              className="w-full h-12 md:h-48 object-cover cursor-pointer mb-2"
+              className="w-full h-12 md:h-28 object-cover cursor-pointer mb-2"
             />
             <img
               src={
@@ -39,7 +39,7 @@ const ItemProduct = () => {
               }
               alt=""
               onClick={() => setSelectImg("img2")}
-              className="w-full h-12 md:h-48 object-cover cursor-pointer mb-2"
+              className="w-full h-12 md:h-28 object-cover cursor-pointer mb-2"
             />
           </div>
           <div className="flex-[5]">

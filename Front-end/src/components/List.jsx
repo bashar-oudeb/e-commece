@@ -10,7 +10,7 @@ const List = ({ SubCat, sort, maxPrice, cardId }) => {
   );
 
   return (
-    <div className="flex flex-wrap  gap-4 md:gap-8 flex-col md:flex-row">
+    <div className="flex flex-wrap justify-center  gap-4 md:gap-8 flex-col md:flex-row">
       {loading
         ? "loading"
         : data?.map((item) => <Card item={item} key={item.id} />)}

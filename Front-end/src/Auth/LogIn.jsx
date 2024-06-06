@@ -9,21 +9,30 @@ const LogIn = () => {
   });
 
   const [accept, setAccept] = useState(false);
+  const [error, setError] = useState(""); // State to hold error messages
   const nav = useNavigate();
 
   async function submit(e) {
     e.preventDefault();
     setAccept(true);
+    setError(""); // Reset error message on new submit attempt
+
     try {
       let res = await axios.post("http://localhost:1337/api/auth/local", {
         identifier: input.email,
         password: input.password, 
       });
-      
-      nav('/');
+  console.log(res)
+      // Save the token to local storage
+      localStorage.setItem("authToken", res.data.jwt);
+
+      // Redirect to home page
+      nav('/products');
     } catch (err) {
-      console.log(err);
-      // Add user feedback here if necessary
+      console.error(err);
+      setError("Failed to log in. Please check your email and password."); // Set error message
+    } finally {
+      setAccept(false); // Reset the accept state
     }
   }
 
@@ -242,18 +251,22 @@ const LogIn = () => {
                   </div>
                 </div>
 
+                {error && ( // Show error message if exists
+                  <div className="text-red-500 text-sm mt-2">
+                    {error}
+                  </div>
+                )}
+
                 <div>
                   <button
                     type="submit"
                     className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 border border-transparent rounded-md bg-gradient-to-r from-fuchsia-600 to-blue-600 focus:outline-none hover:opacity-80 focus:opacity-80"
                   >
-                    Log in
+                    {accept ? "Logging in..." : "Log in"}
                   </button>
                 </div>
               </div>
             </form>
-
-            
           </div>
         </div>
       </div>

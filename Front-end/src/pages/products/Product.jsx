@@ -4,7 +4,6 @@ import { useState } from "react";
 import useFetch from "../../hooks/useFetch";
 
 
-
 const Product = () => {
   const cardId = parseInt(useParams().id);
   const [maxPrice, setMaxPrice] = useState(1000);
@@ -28,10 +27,10 @@ const Product = () => {
   console.log(selectedSubCats)
 
   return (
-    <section className="py-5 px-4 md:px-12 flex flex-col md:flex-row">
+    <section className=" h-[90vh]  py-5 px-4 md:px-12 flex flex-col md:flex-row">
   <div className="LEFT flex-1 md:sticky  top-0 flex flex-col gap-4 mb-6 md:mb-0">
     <div className="">
-      <h1 className="font-poppins text-gray-600 font-bold text-lg md:text-xl">Product Categories</h1>
+      <h1 className="font-poppins text-gray-600 font-bold text-lg md:text-md mb-2">Product Categories</h1>
       {data?.map((item) => (
         <div className="flex gap-3 items-center" key={item.id}>
           <input type="checkbox" id={item.id} value={item.id} onChange={handleChange} />
@@ -70,8 +69,8 @@ const Product = () => {
 
   <div className="RIGHT flex-[3]">
     <img
-      className="w-full h-[200px] md:h-[300px] object-cover mb-6 md:mb-12"
-      src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      className="w-full h-[200px] md:h-[200px] object-cover mb-6 md:mb-12"
+      src="/img/black.png"
       alt=""
     />
     <List cardId={cardId} maxPrice={maxPrice} sort={sort} SubCat={selectedSubCats} />

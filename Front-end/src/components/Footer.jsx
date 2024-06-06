@@ -13,7 +13,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className=" text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className=" text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   About{" "}
@@ -23,7 +23,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Features{" "}
@@ -33,7 +33,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Works{" "}
@@ -43,7 +43,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Career{" "}
@@ -60,7 +60,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Customer Support{" "}
@@ -70,7 +70,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Delivery Details{" "}
@@ -80,7 +80,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -90,7 +90,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -107,7 +107,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Free eBooks{" "}
@@ -117,7 +117,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Development Tutorial{" "}
@@ -127,7 +127,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   How to - Blog{" "}
@@ -137,7 +137,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   YouTube Playlist{" "}
@@ -154,7 +154,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Customer Support{" "}
@@ -164,7 +164,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Delivery Details{" "}
@@ -174,7 +174,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -184,7 +184,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-gray-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -197,7 +197,7 @@ const Footer = () => {
         <hr className="mt-16 mb-10 border-gray-800" />
 
         <div className="flex flex-wrap flex-col md:flex-row gap-1 items-center justify-between">
-          <h1 className=" font-bold text-xl md:text-1xl h-8 auto md:order-1 text-white">
+          <h1 className=" font-bold text-xl md:text-1xl h-8 auto md:order-1 text-gray-200">
             E-STORE
           </h1>
 
@@ -205,7 +205,7 @@ const Footer = () => {
             <img src="/img/payment.png" className="w-[12rem] md:w-[15rem] " alt="" />
           </div>
 
-          <p className="w-full mt-4  text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">
+          <p className="w-full mt-4  text-sm text-center text-gray-200 md:mt-0 md:w-auto md:order-2">
             © Copyright 2021, All Rights Reserved by Postcraft
           </p>
         </div>
